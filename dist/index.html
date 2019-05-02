@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>exit-pop webcomponent</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+
+  <!-- <script src="../node_modules/@webcomponents/webcomponentsjs/custom-elements-es5-adapter.js"></script> -->
+  <!-- needed for web component support in MS Edge -->
+  <script src="webcomponents-bundle.be42ea0b.js"></script>
+  <script src="exitPop.8feb4125.js"></script>
+
+  <style>* {
+      font-family: 'Roboto Condensed', sans-serif;
+    }
+    body {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      position: absolute;
+      margin: 0;
+      padding: 0;
+    }
+    p {
+      max-width: 300px;
+      text-align: center;
+    }
+    exit-pop {
+      /* --container-bg: red; */
+      --container-border: 10px solid yellow;
+      --close-x-color: #0e0e0e;
+      --close-bg-color: yellow;
+    }</style>
+</head>
+<body>
+
+  <h3>exit-pop webcomponent</h3>
+  <p>Trigger the exit-pop by mousing out of the window (like you're closing the page).</p>
+
+  <exit-pop h1="Wait! By clicking out of this page you'll forfeit the chance to learn about this exciting and exclusive opportunity" h2="Click WATCH VIDEO to continue watching." p1="Click READ TRANSCRIPT to read about this opportunity." p2="Or call 855-638-5895 to speak more about this opportunity with one of our professional customer care representatives." btnText1="Watch Video" btnLink1="" btnText2="Read Transcript" btnLink2="https://orders.chooseyourselffinancial.com/ALR_sidehustle_ar_test_0419/ffgfs/index.htm?pageNumber=2#!" imgUrl="https://news.chooseyourselffinancial.com/img/pre-ipo-exitPop-img.png" imgLink="https://lit-element.polymer-project.org/guide/lifecycle" imgOnly="false">
+
+</exit-pop></body>
+</html>

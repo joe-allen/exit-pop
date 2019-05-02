@@ -1,0 +1,25 @@
+{
+  "name": "litelement-google",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@webcomponents/webcomponentsjs": "^2.2.9",
+    "custom-elements-es5-adapter": "^1.0.0",
+    "lit-element": "^2.1.0",
+    "parcel-bundler": "^1.12.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "sass": "^1.19.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "browserslist": [
+    "last 1 chrome versions"
+  ]
+}

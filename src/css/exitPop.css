@@ -1,0 +1,90 @@
+/* :host .exitPop--background a {
+  text-decoration: none;
+  color: initial;
+} */
+/* :host .exitPop--background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(14,14,14,.75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+/* :host .active {
+  display: flex;
+  animation: exitPop--background_active;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
+  animation-delay: 250ms;
+  animation-duration: 250ms;
+}
+@keyframes exitPop--background_active {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+} */
+/* :host .exitPop--container {
+  position: relative;
+  width: 90vw;
+  max-height: 90%;
+  overflow-y: scroll;
+  overflow-x: scroll;
+  max-width: 800px;
+  background: #fff;
+  border: 10px solid rebeccapurple;
+  padding: 2%;
+} */
+/* :host [class^='exitPop--close'] {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 1rem;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: .5rem;
+  cursor: pointer;
+  transition: 200ms;
+}
+:host [class^='exitPop--close']:hover {
+  background-color: rebeccapurple;
+}
+:host [class^='exitPop--close']:hover::after {
+  color: #fff;
+}
+:host [class^='exitPop--close']::after {
+  content: 'X';
+  color: rebeccapurple;
+  margin: -.25rem -.25rem 0 0;
+
+} */
+/* :host .exitPop--copy {
+  color: #0e0e0e;
+  padding: 0 0 2% 0;
+}
+:host .exitPop--buttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+:host .exitPop--button {
+  cursor: pointer;
+  text-align: center;
+  border: 3px solid #0e0e0e;
+  color: #0e0e0e;
+  border-radius: 523523px;
+  min-width: 200px;
+  margin: .5rem;
+  padding: 1rem;
+  flex-grow: 1;
+  flex-basis: auto;
+  transition: 200ms;
+} */
+:host .exitPop--button:hover {
+  box-shadow: 4px 4px 14px rgba(14,14,14,.75);
+  transform: scale(1);
+}
