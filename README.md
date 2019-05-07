@@ -4,7 +4,7 @@ A web component (written with LitElement) to pop a model on mousing out of the b
 
 ## html settings
 
-```
+```html
 <exit-pop
   h1=""
   h2=""
@@ -17,6 +17,7 @@ A web component (written with LitElement) to pop a model on mousing out of the b
   imgUrl=""
   imgLink=""
   imgOnly=""
+  delayPop="10"
 />
 ```
 
@@ -24,7 +25,7 @@ A web component (written with LitElement) to pop a model on mousing out of the b
 
 These will override the defaults in exitPop.js
 
-```
+```css
 exit-pop {
   --container-bg: #fff;
   --container-border: 10px solid yellow;
